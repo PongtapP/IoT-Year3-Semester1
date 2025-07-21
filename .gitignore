@@ -1,0 +1,32 @@
+# Arduino IDE / VS Code specific files
+*.ino.hex
+*.ino.bin
+*.elf
+*.lst
+*.map
+*.eep
+*.o
+*.d
+*.gcno
+*.gcda
+*.gcov
+*.su
+*.sym
+
+# Arduino specific folders
+build/
+.arduino/
+.vscode/
+.idea/
+.theia/ # อันนี้สำคัญเลย เห็นในโครงสร้างของคุณ
+
+# Mac specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# General IDE / system files
+*.log
+*.swp
+*~
